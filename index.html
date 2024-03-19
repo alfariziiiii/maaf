@@ -90,7 +90,7 @@ p{margin:1.5em 0;transition:all .3s ease;}
   function animakhir() {akhiran.style="display:block;";}
   const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040',}); const swalsy = Swal.mixin({confirmButtonText: 'Iya', allowOutsideClick: false,}); const swalst = Swal.mixin({allowOutsideClick: false, showConfirmButton: false, timer: 2500, timerProgressBar: true,});
   var today = new Date();var dd = String(today.getDate()).padStart(2, '0');var mm = String(today.getMonth() + 1).padStart(2, '0');var yyyy = today.getFullYear();const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];today = dd + ' ' + monthNames[today.getMonth()] + ' ' + yyyy;
-  async function menuju(){if(fungsi==2){await swals.fire('Kirim pesan ke WhatsApp aku, ya!');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;setTimeout(maubucin,3500);}}
+  async function menuju(){if(fungsi==2){await swals.fire('Kirim pesan ke WhatsApp aku, ya!');window.location = "https://api.whatsapp.com/send?phone=6285888802003" + pesanwhatsapp;setTimeout(maubucin,3500);}}
   function setel() {audio.play();}
   
   flag=1;flagg=1;
